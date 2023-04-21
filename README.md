@@ -10,7 +10,7 @@ python -m venv .openaienv
 source .openaienv/Source/activate
 
 # .env 파일 생성 후 env값 작성
-cp .env.sampel .env
+cp .env.sample .env
 
 # lib download
 pip install -r requirements.txt
